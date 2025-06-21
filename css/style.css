@@ -22426,3 +22426,66 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 .instagram-media {
   margin: 0 auto !important;
 }
+
+/* Counts Starts */
+.grostats-section {
+    background-color: #fefefe;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .grostats-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1c1c1c;
+    margin-bottom: 40px;
+  }
+
+  .grostats-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .grostats-card {
+    padding: 10px 20px;
+    border-right: none;
+  }
+
+  .grostats-number {
+    color: #e53935;
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+
+  .grostats-label {
+    color: #222;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+
+  @media (min-width: 768px) {
+    .grostats-cards {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .grostats-card {
+      border-right: 1px solid #ddd;
+    }
+
+    .grostats-card:last-child {
+      border-right: none;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .grostats-title {
+      font-size: 3rem;
+    }
+
+    .grostats-number {
+      font-size: 2.8rem;
+    }
+  }
+
+  /* Count Ends */
